@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: watchito
+  datasource:
+    url: jdbc:mysql://localhost:3307/watchito?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: 12345677
+
+  jpa:
+    hibernate:
+      ddl-auto: update
