@@ -9,3 +9,8 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+security:
+  jwt:
+    secret_key: c804b7741d25e3b6fe55cd12208979266e771289e00e6bb387b529b9cce389190c31863ccaf8e46fb289ac22727b080743a5c1f7021545ab4e746df296366268
+    access_token_expiration: 36000000
+    refresh_token_expiration: 252000000
